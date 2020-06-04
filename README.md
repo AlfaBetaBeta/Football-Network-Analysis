@@ -1,7 +1,7 @@
 # Football-Network-Analysis
 Network analysis is performed on several European football leagues via `igraph`.
 
-The `footballNetwork.R` script is divided in foldable sections [I] to [XII] for user convenience.
+The `footballNetwork.R` script is divided in foldable sections `[I]` to `[XII]` for user convenience.
 Navigating through them can be done manually, via the `Code/Jump To...` command or the menu at the
 bottom of the editor window.
 
