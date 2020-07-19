@@ -33,5 +33,10 @@ The following encoding descriptions should facilitate the interpretation of the 
 * Nodes represent teams and edges represent matches, whereby each circular graph conveys information about a given league in a given season.
 * Edge direction: each match has a visiting team and a home team, hence the edge follows this motion intuitively, pointing from the visitor to the host. Since in any season all teams play against each other twice (home and away), the graph for any league on any season is fully connected and bidirectional.
 
-![edge_direction](/img/encodings/edge_direction.png){:height="50%" width="50%"}
-* Edge properties: 
+![edge_direction](/img/encodings/edge_direction.png)
+* Edge properties: the goal difference (home - visitor) for a match is encoded as the edge thickness, and the edge colour signifies:
+    * blue: home win
+    * red: visitor win
+    * grey: tie
+
+![edge_colour_thickness](/img/encodings/edge_colour_thickness.png)
