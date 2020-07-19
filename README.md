@@ -49,6 +49,11 @@ The following encoding descriptions should facilitate the interpretation of the 
 
 <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/node_colour_size.png" width=40% height=40%>
 
-As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (node size encoding points), where it can be corroborated with ease that the champion did not lose a single match at home.
+As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (node size encoding total points), where the following sample observations can be corroborated by inspection with ease:
+* the champion (Atlético) did not lose a single match at home.
+* the champion won every home game except on four tie occasions, against Real Madrid (2nd), Barcelona (3rd), Sevilla (5th) and Málaga (11th).
+* Real Madrid did not manage to win (home or away) a single match against its two main competitors (Atlético and Barcelona), actually losing throughout except the tie when visiting Atlético.
+* one of the most one sided scores corresponds to the match between Levante (visitor) and Barcelona (host).
+* Rayo Vallecano (12th) barely tied throughout the season, and that happened only as visitor.
 
 ![example](/img/encodings/example.png)
