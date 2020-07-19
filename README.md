@@ -1,4 +1,5 @@
-# Football-Network-Analysis
+# Network analysis on European football leagues
+
 Network analysis is performed on several European football leagues via `igraph`.
 
 The `footballNetwork.R` script is divided in foldable sections `[I]` to `[XII]` for user convenience.
@@ -24,3 +25,12 @@ their league(s) of interest.
 
 Section `[XII]` contains some further study regarding all European champions. It requires previous
 execution of ALL Sections `[IV]` to `[XI]` (in whatever order).
+
+# Main graph encodings
+
+The following encoding descriptions should facilitate the interpretation of the graphs generated during execution of the main script:
+
+* Nodes represent teams and edges represent matches, whereby each circular graph conveys information about a given league in a given season.
+* Edge direction: each match has a visiting team and a home team, hence the edge follows this motion intuitively, pointing from the visitor to the host. Since in any season all teams play against each other twice (home and away), the graph for any league on any season is fully connected and bidirectional.
+![edge_direction](/img/encodings/edge_direction.png?raw=true)
+* Edge properties: 
