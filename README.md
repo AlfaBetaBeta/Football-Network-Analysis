@@ -33,5 +33,5 @@ The following encoding descriptions should facilitate the interpretation of the 
 * Nodes represent teams and edges represent matches, whereby each circular graph conveys information about a given league in a given season.
 * Edge direction: each match has a visiting team and a home team, hence the edge follows this motion intuitively, pointing from the visitor to the host. Since in any season all teams play against each other twice (home and away), the graph for any league on any season is fully connected and bidirectional.
 
-<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/tree/master/img/encodings/edge_direction.png" width="48">
+![edge_direction](/img/encodings/edge_direction.png)
 * Edge properties: 
