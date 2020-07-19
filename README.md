@@ -46,4 +46,4 @@ The following encoding descriptions should facilitate the interpretation of the 
     * red: negative difference
     * grey: null difference
 
-![node_colour_thickness](/img/encodings/node_colour_thickness.png)
+![node_colour_size](/img/encodings/node_colour_size.png)
