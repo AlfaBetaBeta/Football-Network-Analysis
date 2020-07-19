@@ -49,7 +49,7 @@ The following encoding descriptions should facilitate the interpretation of the 
 
 <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/node_colour_size.png" width=40% height=40%>
 
-As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (node size encoding total points), where the following sample observations can be corroborated by inspection with ease:
+As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (node size encoding total points), with all teams/nodes ordered as per end-of-season ranking starting at 3 o'clock and arranged counter clockwise, whereby the following sample observations can be corroborated by inspection with ease:
 * the champion (Atlético) did not lose a single match at home.
 * the champion won every home game except on four tie occasions, against Real Madrid (2nd), Barcelona (3rd), Sevilla (5th) and Málaga (11th).
 * Real Madrid did not manage to win (home or away) a single match against its two main competitors (Atlético and Barcelona), actually losing throughout except the tie when visiting Atlético.
