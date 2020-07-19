@@ -34,6 +34,7 @@ The following encoding descriptions should facilitate the interpretation of the 
 * Edge direction - each match has a visiting team and a home team, hence the edge follows this motion intuitively, pointing from the visitor to the host. Since in any season all teams play against each other twice (home and away), the graph for any league on any season is fully connected and bidirectional.
 
 ![edge_direction](/img/encodings/edge_direction.png)
+<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/edge_direction.png" width=50% height=50%>
 * Edge properties - the goal difference (home - visitor) for a match is encoded as the edge thickness, and the edge colour signifies:
     * blue: home win
     * red: visitor win
