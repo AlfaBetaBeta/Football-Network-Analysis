@@ -50,4 +50,4 @@ The following encoding descriptions should facilitate the interpretation of the 
 
 As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (Liga), where it can be corroborated with ease that the champion did not lose a single match at home.
 
-![example](/img/Spanish_League/matches\ Spain\ 2013-2014\ by\ endpoints.png)
+![example](/img/encodings/example.png)
