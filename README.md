@@ -48,6 +48,6 @@ The following encoding descriptions should facilitate the interpretation of the 
 
 ![node_colour_size](/img/encodings/node_colour_size.png)
 
-As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (Liga), where it can be corroborated with ease that the champion did not lose a single match at home.
+As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (node size encoding points), where it can be corroborated with ease that the champion did not lose a single match at home.
 
 ![example](/img/encodings/example.png)
