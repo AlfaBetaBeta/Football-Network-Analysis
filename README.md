@@ -60,8 +60,8 @@ As an illustrative example, the graph below shows season 2013-2014 of the Spanis
 In many of the analysed seasons of the Spanish league the champion has been overwhelmingly dominant, typically one of the historical Big Two (Real Madrid & Barcelona). It is hence of interest to inspect the season 2013/2014, the only one with a different champion (Atlético) in the timespan under consideration. Though obviously Atlético earned more points than any other team, it did not lead with regard to other metrics compared to the Big Two. As can be seen in the circular graph above, most head to heads Atlético vs Big Two ended in a draw, with the exception of the victory over Real Madrid as a visitor. The overall goal difference of Atlético is smaller than that of its pursuivants, and the same can be corroborated when inspecting the in- and out-strength of the network.
 
 <p align="middle">
-  <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish-season-2013-2014-IN-strength.png" width="60%" />
-  <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish-season-2013-2014-OUT-strength.png" width="60%" /> 
+  <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish-season-2013-2014-IN-strength.png" width="40%" />
+  <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish-season-2013-2014-OUT-strength.png" width="40%" /> 
 </p>
 
 With all the network attributes at hand, it is convenient to derive a metric from them that can quantify a team's performance. To this end, the following assumptions are made:
