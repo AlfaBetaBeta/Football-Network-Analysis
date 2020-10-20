@@ -4,7 +4,10 @@ In this repository, eight European football leagues over the timespan 2008-2016 
 
 * [Execution](https://github.com/AlfaBetaBeta/Football-Network-Analysis#execution)
 * [Main graph encodings](https://github.com/AlfaBetaBeta/Football-Network-Analysis#main-graph-encodings)
-* [Sample conclusions](https://github.com/AlfaBetaBeta/Football-Network-Analysis#sample-conclusions)
+* [Sample conclusions](https://github.com/AlfaBetaBeta/Football-Network-Analysis#sample-conclusions):
+	* Properties of the Spanish champion
+	* Patterns of champions on each league
+	* Anomalous cases
 
 ## Execution
 
@@ -55,7 +58,7 @@ As an illustrative example, the graph below shows season 2013-2014 of the Spanis
 
 ## Sample conclusions
 
-**Is it possible to infer the properties of the champion each season?**
+### Is it possible to infer the properties of the champion each season?
 
 In many of the analysed seasons of the Spanish league the champion has been overwhelmingly dominant, typically one of the historical Big Two (Real Madrid & Barcelona). It is hence of interest to inspect the season 2013/2014, the only one with a different champion (Atlético) in the timespan under consideration. Though obviously Atlético earned more points than any other team, it did not lead with regard to other metrics compared to the Big Two. As can be seen in the circular graph above, most head to heads Atlético vs Big Two ended in a draw, with the exception of the victory over Real Madrid as a visitor. The overall goal difference of Atlético is smaller than that of its pursuivants, and the same can be corroborated when inspecting the in- and out-strength of the network.
 
@@ -87,7 +90,7 @@ As can be seen in the barplot below, representing the goal difference indices fo
   <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish league goalDiff indices.png" width=50% height=50%>
 </p>
 
-**Are there any salient patterns for the top performing team of each league?**
+### Are there any salient patterns for the top performing team of each league?
 
 Following the disquisitions of the Spanish league champions and the goal difference indices as a derived metric to evaluate their performance, it is of interest to compare all European champions based on this common framework.
 
@@ -99,7 +102,7 @@ The Dutch and the Swiss leagues have champions with both non-zero indices throug
 
 The Spanish, English, French and German leagues (in turn considered amongst the most compelling ones from the offence perspective) indeed have had a considerably dominant team at least in one of the seasons (e.g. Barcelona 2014/2015, Chelsea 2009/2010, Paris Saint-Germain 2015/2016 and Bayern Munich 2014/2015, respectively). It is interesting to note the parallelism between these dominances and the budget prevalence of these same teams in their respective leagues, which raises the question as to what is the real return of these huge investments, particularly when considering that these leagues have had more 'optimal' champions (e.g. Atlético 2013/2014, Leicester City 2015/2016, Montpellier 2011/2012 and Borussia 2010/2011).
 
-**Are there salient anomalous features arising from inspection of the graphs?**
+### Are there salient anomalous features arising from inspection of the graphs?
 
 The Dutch season 2009/2010 and the English season 2014/2015 showcase a similar phenomenon when inpecting their respective graphs (scaled by goal difference):
 
