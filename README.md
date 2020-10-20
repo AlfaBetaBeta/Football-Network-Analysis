@@ -1,6 +1,6 @@
 # Network analysis on European football leagues
 
-In this repository, several European football leagues are modelled as graphs and insights are extracted from their properties to try to identify relevant metrics associated to successful teams. The main guidelines regarding execution as well as graph encodings and inferred metrics can be found below:
+In this repository, eight European football leagues over the timespan 2008-2016 are modelled as graphs and insights are extracted from their properties to try to identify relevant metrics associated to successful teams. The main guidelines regarding execution as well as graph encodings and inferred metrics can be found below:
 
 * [Execution](https://github.com/AlfaBetaBeta/Football-Network-Analysis#execution)
 * [Main graph encodings](https://github.com/AlfaBetaBeta/Football-Network-Analysis#main-graph-encodings)
@@ -69,4 +69,7 @@ With all the network attributes at hand, it is convenient to derive a metric fro
 
 Under these assumptions, two indices can be calculated as follows:
 
-(goalDiff<sub>victory</sub>&‌divide;N<sub>victory</sub>) - 1
+(goalDiff<sub>victory</sub> / N<sub>victory</sub>) - 1
+(goalDiff<sub>defeat</sub> / N<sub>defeat</sub>) + 1
+
+These goal difference indices express the average goal difference excess in victories and defeats, respectively, i.e. the average favourable excess over the minimum victory (1-0) and the average unfavourable excess over the minimum defeat (0-1), whereby the defeat index is set to zero if a team did not lose over an entire season.
