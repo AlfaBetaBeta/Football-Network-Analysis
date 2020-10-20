@@ -5,9 +5,9 @@ In this repository, eight European football leagues over the timespan 2008-2016 
 * [Execution](https://github.com/AlfaBetaBeta/Football-Network-Analysis#execution)
 * [Main graph encodings](https://github.com/AlfaBetaBeta/Football-Network-Analysis#main-graph-encodings)
 * [Sample conclusions](https://github.com/AlfaBetaBeta/Football-Network-Analysis#sample-conclusions):
-	* Properties of the Spanish champion
-	* Patterns of champions on each league
-	* Anomalous cases
+	* [Properties of the Spanish champion](https://github.com/AlfaBetaBeta/Football-Network-Analysis#is-it-possible-to-infer-the-properties-of-the-champion-each-season)
+	* [Patterns of champions on each league](https://github.com/AlfaBetaBeta/Football-Network-Analysis#are-there-any-salient-patterns-for-the-top-performing-team-of-each-league)
+	* [Anomalous cases](https://github.com/AlfaBetaBeta/Football-Network-Analysis#are-there-salient-anomalous-features-arising-from-inspection-of-the-graphs)
 
 ## Execution
 
