@@ -55,7 +55,7 @@ As an illustrative example, the graph below shows season 2013-2014 of the Spanis
 
 ## Sample conclusions
 
-**Can we infer the properties of the champion each season?**
+**Is it possible to infer the properties of the champion each season?**
 
 In many of the analysed seasons of the Spanish league the champion has been overwhelmingly dominant, typically one of the historical Big Two (Real Madrid & Barcelona). It is hence of interest to inspect the season 2013/2014, the only one with a different champion (Atlético) in the timespan under consideration. Though obviously Atlético earned more points than any other team, it did not lead with regard to other metrics compared to the Big Two. As can be seen in the circular graph above, most head to heads Atlético vs Big Two ended in a draw, with the exception of the victory over Real Madrid as a visitor. The overall goal difference of Atlético is smaller than that of its pursuivants, and the same can be corroborated when inspecting the in- and out-strength of the network.
 
@@ -87,3 +87,14 @@ As can be seen in the barplot below, representing the goal difference indices fo
   <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish league goalDiff indices.png" width=50% height=50%>
 </p>
 
+**Are there any salient patterns for the top performing team of each league?**
+
+Following the disquisitions of the Spanish league champions and the goal difference indices as a derived metric to evaluate their performance, it is of interest to compare all European champions based on this common framework.
+
+<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/all_leagues/Goal difference indices European champions.png" width=100% height=100%>
+
+The set of barplots representing these indices for all leagues showcases some relevant features. The Italian league consistently has champions with a narrow index range , which goes in line with the generalised fan perception that it is a league that prioritises defence. From a certain perspective, however, it can be regarded as the league that produces the most optimal champions.
+
+The Dutch and the Swiss leagues have champions with both non-zero indices throughout. Regardless of their dominance in victories, this means that these teams are to some extent (and compared to other leagues) vulnerable to defeats and hence more approachable by potential pursuivants. Despite this, the Swiss league is effectively a monopoly of Basel, which suggests that the goal difference indices need adjustments for smaller and more volatile leagues.
+
+The Spanish, English, Frech and German leagues (in turn considered amongst the most compelling ones from the offence perspective) indeed have had a considerably dominant team at least in one of the seasons (e.g. Barcelona 2014/2015, Chelsea 2009/2010, Paris Saint-Germain 2015/2016 and Bayern Munich 2014/2015, respectively). It is interesting to note the parallelism between these dominances and the budget prevalence of these same teams in their respective leagues, which raises the question as to what is the real return of these huge investments, particularly when considering that these leagues have had more 'optimal' champions (e.g. Atlético 2013/2014, Chelsea 2014/2015, Montpellier 2011/2012 and Borussia 2010/2011).
