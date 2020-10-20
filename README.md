@@ -82,3 +82,6 @@ These goal difference indices express the average goal difference excess in vict
 In terms of optimisation of 'football resources', it is desirable for a team to have both indices tending to zero, as that represents a champion obtaining the maximum value from its goals and no leeway whatsoever (any one scored goal less would in average lead to a different final amount of points). Whilst this is optimal from the perspective of resource management, it does not necessarily align with other criteria such as showmanship and fan experience. Dominant teams, those that persist in the fanbase memory and are the most profitable in merchandising, are rather teams that minimise the defeat index and maximise the victory one.
 
 As can be seen in the barplot below, representing the goal difference indices for the Spanish league over all seasons, Atlético was indeed the most optimal champion from the victory index side, though the worst from the defeat perspective. This confirms the intuition that they obtained a greater benefit from less 'assets' than the Big Two, becoming a champion arguably less compelling to the wider fanbase worldwide.
+
+<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish league goalDiff indices.png" width=100% height=100%>
+
