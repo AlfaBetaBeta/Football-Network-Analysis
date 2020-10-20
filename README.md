@@ -2,9 +2,9 @@
 
 In this repository, several European football leagues are modelled as graphs and insights are extracted from their properties to try to identify relevant metrics associated to successful teams. The main guidelines regarding execution as well as graph encodings and inferred metrics can be found below:
 
-* Execution
-* Main graph encodings
-* Sample conclusions
+* [Execution](https://github.com/AlfaBetaBeta/Football-Network-Analysis#execution)
+* [Main graph encodings](https://github.com/AlfaBetaBeta/Football-Network-Analysis#main-graph-encodings)
+* [Sample conclusions](https://github.com/AlfaBetaBeta/Football-Network-Analysis#sample-conclusions)
 
 ## Execution
 
