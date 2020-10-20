@@ -83,5 +83,5 @@ In terms of optimisation of 'football resources', it is desirable for a team to 
 
 As can be seen in the barplot below, representing the goal difference indices for the Spanish league over all seasons, Atlético was indeed the most optimal champion from the victory index side, though the worst from the defeat perspective. This confirms the intuition that they obtained a greater benefit from less 'assets' than the Big Two, becoming a champion arguably less compelling to the wider fanbase worldwide.
 
-<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish league goalDiff indices.png" width=100% height=100%>
+<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish league goalDiff indices.png" width=80% height=80%>
 
