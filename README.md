@@ -98,3 +98,10 @@ The set of barplots representing these indices for all leagues showcases some re
 The Dutch and the Swiss leagues have champions with both non-zero indices throughout. Regardless of their dominance in victories, this means that these teams are to some extent (and compared to other leagues) vulnerable to defeats and hence more approachable by potential pursuivants. Despite this, the Swiss league is effectively a monopoly of Basel, which suggests that the goal difference indices need adjustments for smaller and more volatile leagues.
 
 The Spanish, English, French and German leagues (in turn considered amongst the most compelling ones from the offence perspective) indeed have had a considerably dominant team at least in one of the seasons (e.g. Barcelona 2014/2015, Chelsea 2009/2010, Paris Saint-Germain 2015/2016 and Bayern Munich 2014/2015, respectively). It is interesting to note the parallelism between these dominances and the budget prevalence of these same teams in their respective leagues, which raises the question as to what is the real return of these huge investments, particularly when considering that these leagues have had more 'optimal' champions (e.g. Atlético 2013/2014, Leicester City 2015/2016, Montpellier 2011/2012 and Borussia 2010/2011).
+
+**Are there salient anomalous features arising from inspection of the graphs?**
+
+The Dutch season 2009/2010 and the English season 2014/2015 showcase a similar phenomenon when inpecting their respective graphs (scaled by goal difference):
+
+<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Dutch_league/matches Netherlands 2009-2010 by goalDiff.png" width=100% height=100%>
+<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/English_league/matches England 2014-2015 by goalDiff.png" width=100% height=100%>
