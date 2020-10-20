@@ -69,7 +69,11 @@ With all the network attributes at hand, it is convenient to derive a metric fro
 
 Under these assumptions, two indices can be calculated as follows:
 
-(goalDiff<sub>victory</sub> / N<sub>victory</sub>) - 1
-(goalDiff<sub>defeat</sub> / N<sub>defeat</sub>) + 1
+* (goalDiff<sub>victory</sub> / N<sub>victory</sub>) - 1
+* (goalDiff<sub>defeat</sub> / N<sub>defeat</sub>) + 1
 
 These goal difference indices express the average goal difference excess in victories and defeats, respectively, i.e. the average favourable excess over the minimum victory (1-0) and the average unfavourable excess over the minimum defeat (0-1), whereby the defeat index is set to zero if a team did not lose over an entire season.
+
+In terms of optimisation of 'football resources', it is desirable for a team to have both indices tending to zero, as that represents a champion obtaining the maximum value from its goals and no leeway whatsoever (any one scored goal less would in average lead to a different final amount of points). Whilst this is optimal from the perspective of resource management, it does not necessarily align with other criteria such as showmanship and fan experience. Dominant teams, those that persist in the fanbase memory and are the most profitable in merchandising, are rather teams that minimise the defeat index and maximise the victory one.
+
+As can be seen in the barplot below, representing the goal difference indices for the Spanish league over all seasons, Atlético was indeed the most optimal champion from the victory index side, though the worst from the defeat perspective. This confirms the intuition that they obtained a greater benefit from less 'assets' than the Big Two, becoming a champion arguably less compelling to the wider fanbase worldwide.
