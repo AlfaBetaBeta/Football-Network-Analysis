@@ -60,7 +60,7 @@ As an illustrative example, the graph below shows season 2013-2014 of the Spanis
 
 ### Is it possible to infer the properties of the champion each season?
 
-In many of the analysed seasons of the Spanish league the champion has been overwhelmingly dominant, typically one of the historical Big Two (Real Madrid & Barcelona). It is hence of interest to inspect the season 2013/2014, the only one with a different champion (Atlético) in the timespan under consideration. Though obviously Atlético earned more points than any other team, it did not lead with regard to other metrics compared to the Big Two. As can be seen in the circular graph above, most head to heads Atlético vs Big Two ended in a draw, with the exception of the victory over Real Madrid as a visitor. The overall goal difference of Atlético is smaller than that of its pursuivants, and the same can be corroborated when inspecting the in- and out-strength of the network.
+In many of the analysed seasons of the Spanish league the champion has been overwhelmingly dominant, typically one of the historical Big Two (Real Madrid & Barcelona). It is hence of interest to inspect the season 2013/2014, the only one with a different champion (Atlético) in the timespan under consideration. Though obviously Atlético earned more points than any other team, it did not lead with regard to other metrics compared to the Big Two. As can be seen in the circular graph above, most head-to-heads Atlético vs Big Two ended in a draw, with the exception of the victory over Real Madrid as a visitor. The overall goal difference of Atlético is smaller than that of its pursuivants, and the same can be corroborated when inspecting the in- and out-strength of the network.
 
 <p align="middle">
   <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Spanish_League/Spanish-season-2013-2014-IN-strength.png" width="45%" />
@@ -104,7 +104,9 @@ The Spanish, English, French and German leagues (in turn considered amongst the 
 
 ### Are there salient anomalous features arising from inspection of the graphs?
 
-The Dutch season 2009/2010 and the English season 2014/2015 showcase a similar phenomenon when inpecting their respective graphs (scaled by goal difference):
+The Dutch season 2009/2010 and the English season 2014/2015 showcase a similar phenomenon when inspecting their respective graphs (node size scaled by goal difference):
 
 <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/Dutch_league/matches Netherlands 2009-2010 by goalDiff.png" width=100% height=100%>
 <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/English_league/matches England 2014-2015 by goalDiff.png" width=100% height=100%>
+
+Southampton (7<sup>th</sup>) and particularly Ajax (2<sup>nd</sup>) display a significantly favourable goal difference that did not fully translate into an intuitive ranking. Ajax goal difference is 40 goals greater than that of the Dutch champion that year (Twente), though many goals seem to be in excess of the minimum victory as local, whereas they practically lost all matches when playing against teams of the second half of the ranking as visitor. Similarly, Southampton pulled off the most one sided score of the entire season when beating Sunderland (16<sup>th</sup>) as local, as can be checked by inspection, but otherwise had a poor head-to-head with the two teams immediately ahead (Liverpool and Tottenham), which points to these capitalising better on their goals (Tottenham for instance had a poorer balance as local than Shouthampton but was a very effective visitor, with many tight scores).
