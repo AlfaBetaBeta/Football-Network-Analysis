@@ -1,32 +1,25 @@
 # Network analysis on European football leagues
 
-Network analysis is performed on several European football leagues via `igraph`.
+In this repository, several European football leagues are modelled as graphs and insights are extracted from their properties to try to identify relevant metrics associated to successful teams. The main guidelines regarding execution as well as graph encodings and inferred metrics can be found below:
 
-The `footballNetwork.R` script is divided in foldable sections `[I]` to `[XII]` for user convenience.
-Navigating through them can be done manually, via the `Code/Jump To...` command or the menu at the
-bottom of the editor window.
+* Execution
+* Main graph encodings
+* Sample conclusions
 
-For this R script to execute properly, it must be saved in a directory alongside the source data file
-`team_data.csv` and the additional R script `Supporting_functions.R` where all user defined functions
-are sourced from. This supporting R script may be opened for function inspection but should not be edited.
+## Execution
 
-Sections `[I]` and `[II]` MUST be executed successively in all cases, as they deal with the preprocessing
-of the imported data and the sourcing of supporting functions, and their output is required in subsequent
-sections.
+The football network analysis is performed by means of the R library `igraph`, whereby the main R script `footballNetwork.R` is the one meant to be interacted with by the user. For `footballNetwork.R` to execute properly, it must be saved in a directory alongside the source data file `team_data.csv` and the additional R script `Supporting_functions.R` where all user defined functions are sourced from. This supporting R script may be opened for function inspection but should not be edited. The `footballNetwork.R` script is divided in foldable sections `[I]` to `[XII]` for user convenience. Navigating through them can be done manually, via the `Code/Jump To...` command or the menu at the bottom of the editor window:
 
-Section `[III]` is optional but recommended, as it may be illustrative for the use of many graph-querying
-supporting functions. The reader may use it as a guide for their own queries of interest in any league
-and season.
+* Sections `[I]` and `[II]` **MUST** be executed successively in all cases, as they deal with the preprocessing of the imported data and the sourcing of supporting functions, and their output is required in subsequent sections.
 
-Sections `[IV]` to `[XI]` are compact as they programmatically create lists of graphs and store them as
-`png` files in the working directory. All graph plots included in the pdf report can be reproduced in
-these sections. They can be executed independently and in arbitrary order, so the reader can focus on
-their league(s) of interest.
+* Section `[III]` is optional but recommended, as it may be illustrative for the use of many graph-querying supporting functions. The user may use it as a guide for their own queries of interest in any league and season.
 
-Section `[XII]` contains some further study regarding all European champions. It requires previous
-execution of ALL Sections `[IV]` to `[XI]` (in whatever order).
+* Sections `[IV]` to `[XI]` are compact as they programmatically create lists of graphs and store them as `png` files in the working directory. They can be executed independently and in arbitrary order, so the user can focus on their league(s) of interest.
 
-# Main graph encodings
+* Section `[XII]` contains some further study regarding all European champions. It requires previous execution of ALL Sections `[IV]` to `[XI]` (in whatever order).
+
+
+## Main graph encodings
 
 The following encoding descriptions should facilitate the interpretation of the graphs generated during execution of the main script:
 
@@ -57,3 +50,8 @@ As an illustrative example, the graph below shows season 2013-2014 of the Spanis
 * Rayo Vallecano (12th) barely tied throughout the season, and that happened only as visitor.
 
 ![example](/img/encodings/example.png)
+
+
+## Sample conclusions
+
+
