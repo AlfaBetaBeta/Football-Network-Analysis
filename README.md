@@ -45,10 +45,10 @@ The following encoding descriptions should facilitate the interpretation of the 
 
 As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (node size encoding total points), with all teams/nodes ordered as per end-of-season ranking starting at 3 o'clock and arranged counter clockwise, whereby the following sample observations can be corroborated by inspection with ease:
 * the champion (Atlético) did not lose a single match at home.
-* the champion won every home game except on four tie occasions, against Real Madrid (2<sup>nd</sup>), Barcelona (3rd), Sevilla (5th) and Málaga (11th).
+* the champion won every home game except on four tie occasions, against Real Madrid (2<sup>nd</sup>), Barcelona (3<sup>rd</sup>), Sevilla (5<sup>th</sup>) and Málaga (11<sup>th</sup>).
 * Real Madrid did not manage to win (home or away) a single match against its two main competitors (Atlético and Barcelona), actually losing throughout except the tie when visiting Atlético.
-* one of the most one sided scores corresponds to the match between Levante (10th, visitor) and Barcelona (3rd, host).
-* Rayo Vallecano (12th) barely tied throughout the season, and that happened only as visitor.
+* one of the most one sided scores corresponds to the match between Levante (10<sup>th</sup>, visitor) and Barcelona (3<sup>rd</sup>, host).
+* Rayo Vallecano (12<sup>th</sup>) barely tied throughout the season, and that happened only as visitor.
 
 ![example](/img/encodings/example.png)
 
