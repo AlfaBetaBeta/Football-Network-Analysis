@@ -21,9 +21,10 @@ The football network analysis is performed by means of the R library `igraph`, w
 
 ## Main graph encodings
 
-The following encoding descriptions should facilitate the interpretation of the graphs generated during execution of the main script:
+The following encoding descriptions should facilitate the interpretation of the graphs generated during execution of the main script `footballNetwork.R`:
 
 * Nodes represent teams and edges represent matches, whereby each circular graph conveys information about a given league in a given season.
+
 * Edge direction - each match has a visiting team and a home team, hence the edge follows this motion intuitively, pointing from the visitor to the host. Since in any season all teams play against each other twice (home and away), the graph for any league on any season is fully connected and bidirectional.
 
 <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/edge_direction.png" width=40% height=40%>
@@ -44,9 +45,9 @@ The following encoding descriptions should facilitate the interpretation of the 
 
 As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (node size encoding total points), with all teams/nodes ordered as per end-of-season ranking starting at 3 o'clock and arranged counter clockwise, whereby the following sample observations can be corroborated by inspection with ease:
 * the champion (Atlético) did not lose a single match at home.
-* the champion won every home game except on four tie occasions, against Real Madrid (2nd), Barcelona (3rd), Sevilla (5th) and Málaga (11th).
+* the champion won every home game except on four tie occasions, against Real Madrid (2<sup>nd</sup>), Barcelona (3rd), Sevilla (5th) and Málaga (11th).
 * Real Madrid did not manage to win (home or away) a single match against its two main competitors (Atlético and Barcelona), actually losing throughout except the tie when visiting Atlético.
-* one of the most one sided scores corresponds to the match between Levante (visitor) and Barcelona (host).
+* one of the most one sided scores corresponds to the match between Levante (10th, visitor) and Barcelona (3rd, host).
 * Rayo Vallecano (12th) barely tied throughout the season, and that happened only as visitor.
 
 ![example](/img/encodings/example.png)
