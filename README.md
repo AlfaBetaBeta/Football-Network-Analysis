@@ -30,21 +30,27 @@ The following encoding descriptions should facilitate the interpretation of the 
 
 * Edge direction - each match has a visiting team and a home team, hence the edge follows this motion intuitively, pointing from the visitor to the host. Since in any season all teams play against each other twice (home and away), the graph for any league on any season is fully connected and bidirectional.
 
-<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/edge_direction.png" width=40% height=40%>
+<p align="middle">
+  <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/edge_direction.png" width=40% height=40%>
+</p>
 
 * Edge properties - the goal difference (home - visitor) for a match is encoded as the edge thickness, and the edge colour signifies:
     * blue: home win
     * red: visitor win
     * grey: tie
 
-<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/edge_colour_thickness.png" width=40% height=40%>
+<p align="middle">
+  <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/edge_colour_thickness.png" width=40% height=40%>
+</p>
 
 * Node properties - the node size can represent either the goal difference or the total number of points at the end of the season for a given team (the distinction is specified wherever appropriate), whereas the node colour relates to the goal difference as follows:
     * blue: positive difference
     * red: negative difference
     * grey: null difference
 
-<img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/node_colour_size.png" width=40% height=40%>
+<p align="middle">
+  <img src="https://github.com/AlfaBetaBeta/Football-Network-Analysis/blob/master/img/encodings/node_colour_size.png" width=40% height=40%>
+</p>
 
 As an illustrative example, the graph below shows season 2013-2014 of the Spanish League (node size encoding total points), with all teams/nodes ordered as per end-of-season ranking starting at 3 o'clock and arranged counter clockwise, whereby the following sample observations can be corroborated by inspection with ease:
 * the champion (Atlético) did not lose a single match at home.
@@ -77,8 +83,8 @@ With all the network attributes at hand, it is convenient to derive a metric fro
 
 Under these assumptions, two indices can be calculated as follows:
 
-* (goalDiff<sub>victory</sub> / N<sub>victory</sub>) - 1
-* (goalDiff<sub>defeat</sub> / N<sub>defeat</sub>) + 1
+* <img src="https://render.githubusercontent.com/render/math?math=\left(\frac{\text{goal.difference}}{N}\right)_{victory}-1">
+* <img src="https://render.githubusercontent.com/render/math?math=\left(\frac{\text{goal.difference}}{N}\right)_{defeat}%2B1">
 
 These goal difference indices express the average goal difference excess in victories and defeats, respectively, i.e. the average favourable excess over the minimum victory (1-0) and the average unfavourable excess over the minimum defeat (0-1), whereby the defeat index is set to zero if a team did not lose over an entire season.
 
