@@ -83,8 +83,9 @@ With all the network attributes at hand, it is convenient to derive a metric fro
 
 Under these assumptions, two indices can be calculated as follows:
 
-* <img src="https://render.githubusercontent.com/render/math?math=\left(\frac{\text{goal.difference}}{N}\right)_{victory}-1">
-* <img src="https://render.githubusercontent.com/render/math?math=\left(\frac{\text{goal.difference}}{N}\right)_{defeat}%2B1">
+<img src="https://render.githubusercontent.com/render/math?math=\left(\frac{\text{goal.difference}}{N}\right)_{\text{victory}}-1">
+<br/>
+<img src="https://render.githubusercontent.com/render/math?math=\left(\frac{\text{goal.difference}}{N}\right)_{\text{defeat}}%2B1">
 
 These goal difference indices express the average goal difference excess in victories and defeats, respectively, i.e. the average favourable excess over the minimum victory (1-0) and the average unfavourable excess over the minimum defeat (0-1), whereby the defeat index is set to zero if a team did not lose over an entire season.
 
