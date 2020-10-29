@@ -1,6 +1,6 @@
 # Network analysis on European football leagues
 
-In this repository, eight European football leagues over the timespan 2008-2016 are modelled as graphs and insights are extracted from their properties to try to identify relevant metrics associated to successful teams. The main guidelines regarding execution as well as graph encodings and inferred metrics can be found below:
+In this repository, eight European football leagues over the timespan 2008-2016 (`team_data.csv`) are modelled as graphs and insights are extracted from their properties to try to identify relevant metrics associated to successful teams. The main guidelines regarding execution as well as graph encodings and inferred metrics can be found below:
 
 * [Execution](https://github.com/AlfaBetaBeta/Football-Network-Analysis#execution)
 * [Main graph encodings](https://github.com/AlfaBetaBeta/Football-Network-Analysis#main-graph-encodings)
